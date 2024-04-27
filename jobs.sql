@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2024 at 10:37 AM
+-- Generation Time: Apr 27, 2024 at 01:40 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -42,7 +42,7 @@ CREATE TABLE `candidates` (
 --
 
 INSERT INTO `candidates` (`id`, `name`, `email`, `apply`, `qual`, `year`, `resume`) VALUES
-(1, 'Pavan Kumar', 'pavan123@gmail.com', 'PHP DEV', 'B.Tech', '2023', 'Pavan Resume (2).pdf');
+(1, 'Pavan Kumar', 'pavan123@gmail.com', 'Frontend Dev', 'B.Tech', '2023', 'Pavan Resume (2).pdf');
 
 -- --------------------------------------------------------
 
@@ -64,8 +64,7 @@ CREATE TABLE `jobs` (
 --
 
 INSERT INTO `jobs` (`id`, `cname`, `position`, `Jdesc`, `skills`, `CTC`) VALUES
-(1, '1stop', 'PHP DEV', 'We have an open position for PHP Developer.', 'PHP,MySQL,HTML,CSS', '3-5 LPA'),
-(2, 'Amazon', 'Frontend Dev', 'We have an immediate opening for Frontend Developer.', 'HTML,CSS,Bootstrap,Javascript,Reactjs', '3.5-4.5 LPA');
+(1, 'Amazon', 'Frontend Dev', 'We have an immediate opening for frontend developer.', 'HTML,CSS,Bootstrap,Javascript,Reactjs', '3.5-4.5 LPA');
 
 -- --------------------------------------------------------
 
@@ -127,7 +126,7 @@ ALTER TABLE `candidates`
 -- AUTO_INCREMENT for table `jobs`
 --
 ALTER TABLE `jobs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`
